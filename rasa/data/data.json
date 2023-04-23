@@ -1,0 +1,62 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "olá",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "olá tudo bem?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "adeus",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "xau",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "quero uma pizza",
+        "intent": "pedido",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "pizza",
+            "entity": "pedido"
+          }
+        ]
+      },
+      {
+        "text": "gostava de comer pizza",
+        "intent": "pedido",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "pizza",
+            "entity": "pedido"
+          }
+        ]
+      },
+      {
+        "text": "pedir pizza",
+        "intent": "pedido",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "pizza",
+            "entity": "pedido"
+          }
+        ]
+      }
+    ]
+  }
+}
